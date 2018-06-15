@@ -1,3 +1,3 @@
 ## My HackerRank Solutions
 
-These are my solutions of the HackerRank exercises. 
+These are my solutions for the HackerRank exercises. 
