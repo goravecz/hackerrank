@@ -1,4 +1,4 @@
-package _java.Strings.javastringtokens;
+package _java.strings.javastringtokens;
 
 import java.util.Scanner;
 

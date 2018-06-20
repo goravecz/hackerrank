@@ -1,4 +1,4 @@
-package _java.Strings.validusernameregularexpression;
+package _java.strings.validusernameregularexpression;
 
 import java.util.Scanner;
 

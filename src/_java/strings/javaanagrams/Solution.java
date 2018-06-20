@@ -1,4 +1,4 @@
-package _java.Strings.javaanagrams;
+package _java.strings.javaanagrams;
 
 import java.util.Map;
 import java.util.Scanner;

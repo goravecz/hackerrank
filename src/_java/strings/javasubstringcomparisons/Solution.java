@@ -1,4 +1,4 @@
-package _java.Strings.javasubstringcomparisons;
+package _java.strings.javasubstringcomparisons;
 
 import java.util.ArrayList;
 import java.util.Comparator;

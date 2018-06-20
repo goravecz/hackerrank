@@ -1,4 +1,4 @@
-package _java.Strings.tagcontentextractor;
+package _java.strings.tagcontentextractor;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

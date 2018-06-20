@@ -1,4 +1,4 @@
-package _java.Strings.javasubstring;
+package _java.strings.javasubstring;
 
 import java.util.Scanner;
 
