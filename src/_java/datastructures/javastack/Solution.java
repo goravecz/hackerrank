@@ -25,17 +25,16 @@ public class Solution {
             Character bracket = brackets.charAt(i);
             if (bracket == '{' || bracket == '[' || bracket == '(') {
                 stack.push(bracket);
+            } else if (stack.isEmpty()) {
+                balanced = false;
+                break;
+            } else if ((bracket == ']' && stack.peek() == '[') ||
+                    (bracket == '}' && stack.peek() == '{') ||
+                    (bracket == ')' && stack.peek() == '(')) {
+                stack.pop();
             } else {
-                if (!stack.isEmpty()) {
-                    if ((bracket == ']' && stack.peek() == '[') ||
-                            (bracket == '}' && stack.peek() == '{') ||
-                            (bracket == ')' && stack.peek() == '(')) {
-                        stack.pop();
-                    }
-                } else {
-                    balanced = false;
-                    break;
-                }
+                balanced = false;
+                break;
             }
         }
 
