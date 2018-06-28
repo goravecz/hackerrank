@@ -3,6 +3,10 @@ package _java.datastructures.javastack;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * https://www.hackerrank.com/challenges/java-stack/problem
+ */
+
 public class Solution {
 
     public static void main(String[] args) {
